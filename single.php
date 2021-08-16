@@ -1,13 +1,16 @@
 <?php get_header(); ?>
-
-    <h1>Single</h1>
-
-    <?php if( have_posts() ) : while( have_posts() ) : the_post(); ?>
+  <?php if( have_posts() ) : while( have_posts() ) : the_post(); ?>
     
-    	<h1><?php the_title(); ?></h1>
-    
-    	<?php the_content(); ?>
+    <article class="post">
+		<h1><?php the_title(); ?></h1>
+      	<?php the_post_thumbnail(); ?>
 
-	<?php endwhile; endif; ?>
+		<div class="post__content">
+        	<?php the_content(); ?>
+     	</div>
+
     
+    </article>
+
+  <?php endwhile; endif; ?>
 <?php get_footer(); ?>

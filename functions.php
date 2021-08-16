@@ -57,3 +57,11 @@ register_nav_menus( array(
 	'main' => 'Menu Principal',
 	'footer' => 'Bas de page',
 ) );
+
+// custom background
+
+add_theme_support( 'custom-background' );
+$args = array(
+	'default-image' => '/assets/images/wall.png',
+);
+add_theme_support( 'custom-background', $args );
