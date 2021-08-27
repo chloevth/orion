@@ -1,3 +1,159 @@
 body{
-    background-color: brown;
+    margin:0;
+    background-color: white;
+    font-family: sans-serif;
 }
+h1{
+    color: white;
+    
+}
+
+/* page single.php */
+
+#bg__single{
+    background-position:center;
+    background-size: cover;
+    
+}
+#single__title{
+    margin: 0;
+    text-align: center;
+   font-size: 6rem;
+   padding: 6rem 0;
+}
+
+.wp-block-button__link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 183px;
+    border-radius: 4px;
+}
+
+.section-conseil{
+    margin: 6rem 0;
+}
+
+#myBtn {
+    height:100px;
+    width: 100px;
+    background-image: url('/wordpress/sandbox/wp-content/themes/orion/assets/images/rocket-orange.svg');
+    background-repeat: no-repeat;
+    background-position:center;
+  background-color: white;
+
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  
+
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 200px; /* Rounded corners */
+  border : 5px solid #FF9056;
+  font-size: 18px; /* Increase font size */
+}
+
+#myBtn:hover {
+    background-image: url('/wordpress/sandbox/wp-content/themes/orion/assets/images/rocket-violet.svg');
+    border : 5px solid #533D6E;
+    background-repeat: no-repeat;
+    background-position:center;
+  background-color: white;
+}
+
+
+
+/* <a class="wp-block-button__link has-white-color has-text-color has-background" style="background-color:#ff9056;">Nous contacter</a> */
+ 
+/* fin page single.php */
+
+/* menu du footer */
+footer{
+    
+    padding: 2vh 0;
+    height: vh;
+    background-color: #533D6E;
+    display: flex;
+    flex-direction: column;
+   color: white;
+    align-items: center;
+}
+
+
+#menu-bas-de-page{
+    padding: 0;
+}
+ 
+
+#menu-item-276{
+    border-right: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-item a{
+   text-decoration: none;
+   color: white;
+   font-size: 1.5rem;
+   font-family: sans-serif;
+}
+
+
+.tnp-field-button{
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+
+}
+.tnp-submit{
+    
+    background-color: #FF9056 !important;
+    
+}
+
+/* "><ul id="menu-bas-de-page" class="menu"><li id="menu-item-91" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-91"><a href="http://localhost/wordpress/sandbox/mentions-legales/">Mentions légales</a></li>
+</ul></div> */
+
+
+nav{
+    height: 151px;
+    background-color: rgba(255, 145, 86, 0.7);
+    display: flex;
+    width: 100vw;
+}
+
+.custom-logo-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 151px;
+   
+    
+}
+
+#menu-menu-principal{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 80vw;
+}
+
+.menu-item{
+    list-style-type: none;
+    margin-right: 2rem;
+    padding-right: 2rem;
+    border-right: 2px solid white;
+}
+
+#menu-item-84{
+    border-right: none;
+}
+
+
